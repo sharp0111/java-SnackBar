@@ -30,7 +30,10 @@ public class Customer
     {
         this.name = name;
     }
-
+    public void addCash(double cashOnHand)
+    {
+        this.cashOnHand += cashOnHand;
+    }
     public void buySnack(int quantity, Snack snack)
     {
         snack.buySnack(quantity);
